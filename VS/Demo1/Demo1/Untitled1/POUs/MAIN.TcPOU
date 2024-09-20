@@ -7,7 +7,7 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[my_counter := my_counter + my_counter + my_counter + 1;]]></ST>
+      <ST><![CDATA[my_counter := my_counter + my_counter + my_counter + 2;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
