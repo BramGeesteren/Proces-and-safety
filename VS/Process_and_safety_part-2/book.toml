@@ -1,0 +1,9 @@
+[book]
+authors = ["Bram Geerdink"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Example of mdbook git test"
+
+[preprocessor.plantuml]
+plantuml-cmd="http://localhost:8181"

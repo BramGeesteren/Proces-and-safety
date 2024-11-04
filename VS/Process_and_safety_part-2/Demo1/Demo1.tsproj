@@ -9,9 +9,9 @@
 			</Tasks>
 		</System>
 		<Plc>
-			<Project GUID="{D27659FB-9145-44B6-B539-511C53AADB71}" Name="appuccino_machine" PrjFilePath="appuccino_machine\appuccino_machine.plcproj" TmcFilePath="appuccino_machine\appuccino_machine.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Untitled1\Untitled1.tmc" TmcHash="{8D2DE7FE-0685-41EB-F709-4837DB4119DA}">
-					<Name>appuccino_machine Instance</Name>
+			<Project GUID="{D27659FB-9145-44B6-B539-511C53AADB71}" Name="Cappuccino_machine" PrjFilePath="Cappuccino_machine\Cappuccino_machine.plcproj" TmcFilePath="Cappuccino_machine\Cappuccino_machine.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Untitled1\Untitled1.tmc" TmcHash="{54608FC5-3119-8497-FBF8-84821E7DAAFC}">
+					<Name>Cappuccino_machine Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Contexts>
 						<Context>
