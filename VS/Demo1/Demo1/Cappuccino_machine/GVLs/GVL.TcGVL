@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GVL" Id="{8284b5d0-6eff-4475-90c7-9e806e9c1713}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+// Inputs			
+Power_ON		: BOOL;
+Water_opgewarmt	: BOOL;
+
+
+// Outputs
+Spoelen_machine 	: BOOL;
+Water_verwarmen		: BOOL;
+
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

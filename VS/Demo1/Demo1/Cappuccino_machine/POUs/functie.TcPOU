@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="functie" Id="{aeb3075e-9858-42cb-9531-a1dc2ef35f12}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION functie : BOOL
+VAR_INPUT
+	Spoelen_start : BOOL;
+	Timer : TON;
+END_VAR
+VAR
+	
+
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+// machine word gespoeld wanneer die in stap 10 is van proces_1
+
+GVL.Spoelen_machine := TRUE;
+
+		IF Timer.Q = TRUE THEN
+			Timer(IN:=FALSE);
+			functie := TRUE;
+			GVL.Spoelen_machine := FALSE;
+		END_IF
+]]></ST>
+    </Implementation>
+    <LineIds Name="functie">
+      <LineId Id="51" Count="1" />
+      <LineId Id="30" Count="0" />
+      <LineId Id="15" Count="0" />
+      <LineId Id="31" Count="0" />
+      <LineId Id="16" Count="2" />
+      <LineId Id="41" Count="0" />
+      <LineId Id="7" Count="0" />
+      <LineId Id="20" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
