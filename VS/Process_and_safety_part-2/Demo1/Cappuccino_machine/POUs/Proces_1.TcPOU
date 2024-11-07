@@ -3,13 +3,16 @@
   <POU Name="Proces_1" Id="{ecdb4a31-0add-4a42-99fb-f6ca525697d9}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM Proces_1
 VAR
+
+Step		: UINT;	
+
 // INputs
 Start			: BOOL;
 Beker_aanwezig	: BOOL;
 Bonen_aanwezig	: BOOL;
 Melk_aanwezig	: BOOL;
 Voldoende_water	: BOOL;
-
+Start_Spoelen :BOOL;	
 
 
 // Outputs
@@ -18,13 +21,12 @@ Melk_verwarming		: BOOL;
 Melk_pomp			: BOOL;
 Bonen_malen			: BOOL;
 Water_pomp			: BOOL;
-
-
-
-
-Step		: UINT;	
 Spoelen		: BOOL; 
-Start_Spoelen :BOOL;	
+
+
+
+
+
 
 
 
